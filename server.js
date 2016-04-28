@@ -4,7 +4,9 @@ var bodyParser = require("body-parser");
 
 var app = express();
 
-mongoose.connect('mongodb://localhost:27017/angular-network')
+mongoose.connect('mongodb://localhost:27017/angular-network');
+
+app.use('/app', express.static(__dirname + "/app"));
 
 app.get('/', function(req, res){
 	res.sendfile('index.html');
