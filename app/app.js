@@ -1,4 +1,4 @@
 (function(){
-  angular.module('angularNetwork', []);
+  angular.module('angularNetwork', ['ui.router']);
 
 }());
