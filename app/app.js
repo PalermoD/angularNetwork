@@ -1,5 +1,5 @@
 (function(){
-  angular.module('angularNetwork', ['ui.router']);
+  angular.module('angularNetwork', ['ui.router'])
          .config(function($stateProvider){
 
          	$stateProvider
